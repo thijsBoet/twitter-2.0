@@ -15,10 +15,10 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className='flex flex-col'>
-      <img src="https://links.papareact.com/drq" alt="" className="h-10 w-10" />
+    <div className='flex flex-col col-span-2 items-center md:items-start'>
+      <img src="https://links.papareact.com/drq" alt="" className="m-3 h-10 w-10" />
       <SidebarRow Icon={HomeIcon} title="Home" />
-      <SidebarRow Icon={HashtagIcon} title="explore" />
+      <SidebarRow Icon={HashtagIcon} title="Explore" />
       <SidebarRow Icon={BellIcon} title="Notifications" />
       <SidebarRow Icon={MailIcon} title="Messages" />
       <SidebarRow Icon={BookmarkIcon} title="Bookmarks" />
